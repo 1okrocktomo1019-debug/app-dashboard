@@ -1,13 +1,17 @@
 apps:
-  - name: X → Threads リライトツール
+  - name: チャイドル
+    description: AIアイドルチャットアプリ
+    url: https://chaidol.onrender.com/
+
+  - name: X → Threads リライトツール（仮）
     description: XのバズAI投稿をClaude APIでThreads向けにリライトし自動投稿するツール
     url: https://x-to-threads.up.railway.app
 
-  - name: Gemini 画像生成ツール
+  - name: Gemini 画像生成ツール（仮）
     description: Gemini API（Imagen 3）を使ってプロンプトから画像を生成しPNGで保存するツール
     url: https://gemini-image-gen.up.railway.app
 
-  - name: 問い合わせフォーム自動送信ツール
+  - name: 問い合わせフォーム自動送信ツール（仮）
     description: PlaywrightとClaude APIで企業ごとにカスタム営業文章を生成してフォーム送信するツール
     url: https://inquiry-form-sender.up.railway.app
 
