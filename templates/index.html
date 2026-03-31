@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iMedia ツール一覧</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>iMedia ツール一覧</h1>
+    <p>社内AIツールのリンク集</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      {% for app in apps %}
+      <a class="card" href="{{ app.url }}" target="_blank" rel="noopener noreferrer">
+        <h2>{{ app.name }}</h2>
+        <p>{{ app.description }}</p>
+        <span class="link">開く →</span>
+      </a>
+      {% endfor %}
+    </div>
+  </main>
+</body>
+</html>
