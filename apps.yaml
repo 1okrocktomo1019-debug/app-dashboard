@@ -1,7 +1,7 @@
 apps:
   - name: チャイドル
     description: 子供用バーチャル試着アプリ
-    url: https://chaidol.onrender.com/
+    url: https://web-production-f274a.up.railway.app
 
   - name: X → Threads リライトツール（仮）
     description: XのバズAI投稿をClaude APIでThreads向けにリライトし自動投稿するツール
