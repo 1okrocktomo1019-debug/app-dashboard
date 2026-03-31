@@ -1,0 +1,19 @@
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="52" height="52" rx="12" fill="url(#g)"/>
+  <!-- head -->
+  <circle cx="26" cy="14" r="6" fill="rgba(255,255,255,0.95)"/>
+  <!-- body base (child silhouette) -->
+  <ellipse cx="26" cy="33" rx="7" ry="9" fill="rgba(255,255,255,0.25)"/>
+  <!-- collar -->
+  <path d="M22,22 Q26,25 30,22" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- t-shirt being put on -->
+  <path d="M18,23 L14,27 L18,28.5 L18,42 L34,42 L34,28.5 L38,27 L34,23 L30,22 Q26,25 22,22 Z" fill="rgba(255,255,255,0.85)"/>
+  <!-- sparkle (virtual magic) -->
+  <path d="M38,9 l1.2,2.2 l2.2,0.7 l-2.2,0.7 l-1.2,2.2 l-1.2,-2.2 l-2.2,-0.7 l2.2,-0.7z" fill="rgba(255,255,255,0.8)"/>
+</svg>

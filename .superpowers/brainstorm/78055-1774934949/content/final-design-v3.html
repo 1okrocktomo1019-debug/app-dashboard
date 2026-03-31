@@ -1,0 +1,71 @@
+<h2>修正デザイン v3</h2>
+<p class="subtitle">Chaidol = 子供に服を着せるイメージ / ペン先を修正</p>
+
+<div class="section">
+<div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:32px;">
+
+  <!-- Chaidol: child wearing clothes -->
+  <div style="background:white;border-radius:12px;padding:20px;width:200px;box-shadow:0 2px 12px rgba(0,0,0,0.10);display:flex;flex-direction:column;gap:10px;">
+    <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#a855f7"/></linearGradient></defs>
+      <rect width="52" height="52" rx="12" fill="url(#g1)"/>
+      <!-- child head -->
+      <circle cx="26" cy="14" r="6" fill="rgba(255,255,255,0.95)"/>
+      <!-- child body (faint outline underneath) -->
+      <ellipse cx="26" cy="33" rx="7" ry="9" fill="rgba(255,255,255,0.25)"/>
+      <!-- T-shirt being put on (main garment layer) -->
+      <!-- collar -->
+      <path d="M22,22 Q26,25 30,22" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      <!-- shirt shape: shoulders + sleeves + body -->
+      <path d="M18,23 L14,27 L18,28.5 L18,42 L34,42 L34,28.5 L38,27 L34,23 L30,22 Q26,25 22,22 Z" fill="rgba(255,255,255,0.85)"/>
+      <!-- sparkle (virtual try-on magic) -->
+      <path d="M38,9 l1.2,2.2 l2.2,0.7 l-2.2,0.7 l-1.2,2.2 l-1.2-2.2 l-2.2-0.7 l2.2-0.7z" fill="rgba(255,255,255,0.8)"/>
+    </svg>
+    <div style="font-size:14px;font-weight:700;color:#1a1a2e;">チャイドル</div>
+    <div style="font-size:12px;color:#888;line-height:1.5;">子供用バーチャル試着アプリ</div>
+    <div style="font-size:12px;color:#4f6ef7;font-weight:600;">開く →</div>
+  </div>
+
+  <!-- X→Threads: clean pen icon -->
+  <div style="background:white;border-radius:12px;padding:20px;width:200px;box-shadow:0 2px 12px rgba(0,0,0,0.10);display:flex;flex-direction:column;gap:10px;">
+    <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f6ef7"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient></defs>
+      <rect width="52" height="52" rx="12" fill="url(#g2)"/>
+      <!-- pen: one connected path, top-right to bottom-left -->
+      <!-- body: 35,9 → 43,17 (top cap end) → 23,37 → 15,29 (barrel) -->
+      <polygon points="35,9 43,17 23,37 15,29" fill="rgba(255,255,255,0.9)"/>
+      <!-- cap band at top -->
+      <polygon points="35,9 43,17 40,20 32,12" fill="rgba(255,255,255,0.55)"/>
+      <!-- nib: narrows from barrel bottom to single tip — same corner points as barrel bottom -->
+      <polygon points="15,29 23,37 9,45" fill="rgba(255,255,255,0.9)"/>
+      <!-- ink dot at very tip -->
+      <circle cx="9" cy="45" r="2" fill="rgba(255,255,255,0.7)"/>
+      <!-- rewrite lines (right side) -->
+      <line x1="30" y1="41" x2="42" y2="41" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="33" y1="46" x2="42" y2="46" stroke="rgba(255,255,255,0.45)" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <div style="font-size:14px;font-weight:700;color:#1a1a2e;">X → Threads リライトツール</div>
+    <div style="font-size:12px;color:#888;line-height:1.5;">XのAI投稿をThreads向けにリライト</div>
+    <div style="font-size:12px;color:#4f6ef7;font-weight:600;">開く →</div>
+  </div>
+
+  <!-- Form tool (unchanged) -->
+  <div style="background:white;border-radius:12px;padding:20px;width:200px;box-shadow:0 2px 12px rgba(0,0,0,0.10);display:flex;flex-direction:column;gap:10px;">
+    <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="#ef4444"/></linearGradient></defs>
+      <rect width="52" height="52" rx="12" fill="url(#g3)"/>
+      <rect x="10" y="16" width="28" height="18" rx="3" fill="rgba(255,255,255,0.85)"/>
+      <path d="M10 19l14 10 14-10" stroke="#f97316" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="36" cy="36" r="8" fill="#ef4444" stroke="white" stroke-width="2"/>
+      <path d="M33 36.5l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div style="font-size:14px;font-weight:700;color:#1a1a2e;">問い合わせフォーム自動送信ツール</div>
+    <div style="font-size:12px;color:#888;line-height:1.5;">企業フォームにAI営業文を自動送信</div>
+    <div style="font-size:12px;color:#4f6ef7;font-weight:600;">開く →</div>
+  </div>
+
+</div>
+<div style="text-align:center;">
+  <p style="font-size:13px;color:#666;">OKであればこのまま実装します。修正があれば教えてください。</p>
+</div>
+</div>

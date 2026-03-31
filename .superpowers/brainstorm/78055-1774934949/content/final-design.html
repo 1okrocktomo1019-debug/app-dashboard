@@ -1,0 +1,101 @@
+<h2>最終デザイン確認</h2>
+<p class="subtitle">64×64px SVGアイコン — 実際のカードに配置したイメージ</p>
+
+<div class="section">
+
+<!-- Card mockups -->
+<div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:32px;">
+
+  <!-- Chaidol card -->
+  <div style="background:white;border-radius:12px;padding:20px;width:200px;box-shadow:0 2px 12px rgba(0,0,0,0.10);display:flex;flex-direction:column;gap:10px;">
+    <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#a855f7"/></linearGradient></defs>
+      <rect width="52" height="52" rx="12" fill="url(#g1)"/>
+      <!-- child silhouette -->
+      <circle cx="26" cy="16" r="5" fill="rgba(255,255,255,0.95)"/>
+      <!-- dress body -->
+      <path d="M20 22h12l3 8H17l3-8z" fill="rgba(255,255,255,0.55)"/>
+      <path d="M17 30l-2.5 13h23l-2.5-13" fill="rgba(255,255,255,0.9)"/>
+      <!-- sparkle -->
+      <path d="M38 10 l1 3 l3 1 l-3 1 l-1 3 l-1-3 l-3-1 l3-1z" fill="rgba(255,255,255,0.8)"/>
+    </svg>
+    <div style="font-size:14px;font-weight:700;color:#1a1a2e;">チャイドル</div>
+    <div style="font-size:12px;color:#888;line-height:1.5;">子供用バーチャル試着アプリ</div>
+    <div style="font-size:12px;color:#4f6ef7;font-weight:600;">開く →</div>
+  </div>
+
+  <!-- X→Threads card -->
+  <div style="background:white;border-radius:12px;padding:20px;width:200px;box-shadow:0 2px 12px rgba(0,0,0,0.10);display:flex;flex-direction:column;gap:10px;">
+    <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4f6ef7"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient></defs>
+      <rect width="52" height="52" rx="12" fill="url(#g2)"/>
+      <!-- X letter -->
+      <text x="9" y="30" font-family="Arial Black,Arial" font-size="15" font-weight="900" fill="rgba(255,255,255,0.95)">X</text>
+      <!-- arrow -->
+      <path d="M23 26h12" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M30 20l6 6-6 6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- threads dots -->
+      <circle cx="41" cy="16" r="2.5" fill="rgba(255,255,255,0.9)"/>
+      <circle cx="41" cy="24" r="2.5" fill="rgba(255,255,255,0.7)"/>
+      <circle cx="41" cy="32" r="2.5" fill="rgba(255,255,255,0.5)"/>
+      <line x1="41" y1="18.5" x2="41" y2="21.5" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+      <line x1="41" y1="26.5" x2="41" y2="29.5" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    </svg>
+    <div style="font-size:14px;font-weight:700;color:#1a1a2e;">X → Threads リライトツール</div>
+    <div style="font-size:12px;color:#888;line-height:1.5;">XのAI投稿をThreads向けにリライト</div>
+    <div style="font-size:12px;color:#4f6ef7;font-weight:600;">開く →</div>
+  </div>
+
+  <!-- Form tool card -->
+  <div style="background:white;border-radius:12px;padding:20px;width:200px;box-shadow:0 2px 12px rgba(0,0,0,0.10);display:flex;flex-direction:column;gap:10px;">
+    <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="#ef4444"/></linearGradient></defs>
+      <rect width="52" height="52" rx="12" fill="url(#g3)"/>
+      <!-- envelope -->
+      <rect x="10" y="16" width="28" height="18" rx="3" fill="rgba(255,255,255,0.85)"/>
+      <path d="M10 19l14 10 14-10" stroke="#f97316" stroke-width="2" stroke-linecap="round"/>
+      <!-- send/check badge -->
+      <circle cx="36" cy="36" r="8" fill="#ef4444" stroke="white" stroke-width="2"/>
+      <path d="M33 36.5l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div style="font-size:14px;font-weight:700;color:#1a1a2e;">問い合わせフォーム自動送信ツール</div>
+    <div style="font-size:12px;color:#888;line-height:1.5;">企業フォームにAI営業文を自動送信</div>
+    <div style="font-size:12px;color:#4f6ef7;font-weight:600;">開く →</div>
+  </div>
+
+</div>
+
+<!-- Icon summary -->
+<div style="background:#f8f9ff;border-radius:10px;padding:20px;max-width:580px;margin:0 auto;">
+  <h3 style="font-size:14px;margin-bottom:12px;color:#1a1a2e;">アイコン仕様まとめ</h3>
+  <table style="width:100%;font-size:12px;border-collapse:collapse;">
+    <thead><tr style="border-bottom:1px solid #e0e4f0;">
+      <th style="text-align:left;padding:6px 8px;color:#666;">ファイル名</th>
+      <th style="text-align:left;padding:6px 8px;color:#666;">グラデーション</th>
+      <th style="text-align:left;padding:6px 8px;color:#666;">モチーフ</th>
+    </tr></thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #f0f2f8;">
+        <td style="padding:6px 8px;font-weight:600;">chaidol.svg</td>
+        <td style="padding:6px 8px;"><span style="background:linear-gradient(to right,#f472b6,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">ピンク → パープル</span></td>
+        <td style="padding:6px 8px;">子供シルエット + ドレス + スパークル</td>
+      </tr>
+      <tr style="border-bottom:1px solid #f0f2f8;">
+        <td style="padding:6px 8px;font-weight:600;">x-to-threads.svg</td>
+        <td style="padding:6px 8px;"><span style="background:linear-gradient(to right,#4f6ef7,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">ブルー → シアン</span></td>
+        <td style="padding:6px 8px;">X文字 + 矢印 + Threadsの縦ドット</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 8px;font-weight:600;">form-sender.svg</td>
+        <td style="padding:6px 8px;"><span style="background:linear-gradient(to right,#f97316,#ef4444);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">オレンジ → レッド</span></td>
+        <td style="padding:6px 8px;">封筒 + 送信チェックバッジ</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</div>
+
+<div style="text-align:center;margin-top:24px;">
+  <p style="font-size:13px;color:#666;">このデザインで進めてOKですか？</p>
+</div>

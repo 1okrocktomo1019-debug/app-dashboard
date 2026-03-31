@@ -16,6 +16,9 @@
     <div class="grid">
       {% for app in apps %}
       <a class="card" href="{{ app.url }}" target="_blank" rel="noopener noreferrer">
+        {% if app.icon %}
+        <img src="{{ url_for('static', filename='icons/' + app.icon) }}" width="52" height="52" alt="{{ app.name }} icon" style="border-radius:12px;">
+        {% endif %}
         <h2>{{ app.name }}</h2>
         <p>{{ app.description }}</p>
         <span class="link">開く →</span>
