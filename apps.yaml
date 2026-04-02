@@ -2,5 +2,14 @@ apps:
   - name: チャイドル
     description: 子供用バーチャル試着アプリ
     url: https://web-production-f274a.up.railway.app
-    icon: chaidol.svg
+    icon: chaidol.png
 
+  - name: 微熱メイカー
+    description: "体調が悪いのに\n熱がない時に"
+    url: https://extraordinary-alignment-production-aedd.up.railway.app/
+    icon: binetsu.svg
+
+  - name: 明日
+    description: 追加予定
+    url: "#"
+    icon: question.svg
