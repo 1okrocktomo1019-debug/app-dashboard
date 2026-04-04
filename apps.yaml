@@ -10,7 +10,7 @@ apps:
     icon: binetsu.svg
 
   - name: 花粉チェッカー
-    description: "今日の花粉情報を\nエリアで手軽にチェック"
+    description: "花粉情報を\n簡単チェック"
     url: https://kafun-checker-production.up.railway.app/
     icon: kafun.svg
 
