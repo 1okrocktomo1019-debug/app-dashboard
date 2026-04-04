@@ -9,6 +9,11 @@ apps:
     url: https://extraordinary-alignment-production-aedd.up.railway.app/
     icon: binetsu.svg
 
+  - name: 花粉チェッカー
+    description: "今日の花粉情報を\nエリアで手軽にチェック"
+    url: https://kafun-checker-production.up.railway.app/
+    icon: kafun.svg
+
   - name: 明日
     description: 追加予定
     url: "#"
