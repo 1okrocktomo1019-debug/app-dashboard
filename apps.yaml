@@ -1,6 +1,6 @@
 apps:
   - name: チャイドル
-    description: 子供用バーチャル試着アプリ
+    description: "子ども用\n試着アプリ"
     url: https://web-production-f274a.up.railway.app
     icon: chaidol.png
 
