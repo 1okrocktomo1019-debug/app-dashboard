@@ -8,21 +8,21 @@
   <rect width="120" height="120" rx="26" fill="url(#bg)"/>
 
   <!-- 温度計（少し右に傾けて） -->
-  <g transform="rotate(18, 60, 60)">
+  <g transform="rotate(18, 60, 60) translate(0, 8)">
     <!-- 本体（管） -->
-    <rect x="52" y="18" width="16" height="56" rx="8" fill="white" stroke="#e0e0e0" stroke-width="1.5"/>
+    <rect x="54" y="10" width="12" height="68" rx="6" fill="white" stroke="#e0e0e0" stroke-width="1.5"/>
     <!-- 水銀（赤い部分） -->
-    <rect x="55" y="44" width="10" height="30" rx="2" fill="#ff5252"/>
+    <rect x="57" y="42" width="6" height="36" rx="2" fill="#ff5252"/>
     <!-- 球部 -->
-    <circle cx="60" cy="79" r="12" fill="#ff5252"/>
-    <circle cx="60" cy="79" r="8" fill="#ff1744"/>
+    <circle cx="60" cy="86" r="12" fill="#ff5252"/>
+    <circle cx="60" cy="86" r="8" fill="#ff1744"/>
     <!-- ハイライト -->
-    <ellipse cx="56" cy="75" rx="3" ry="4" fill="white" opacity="0.35"/>
+    <ellipse cx="56" cy="82" rx="3" ry="4" fill="white" opacity="0.35"/>
     <!-- 目盛り -->
-    <line x1="62" y1="30" x2="66" y2="30" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
-    <line x1="62" y1="38" x2="66" y2="38" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
-    <line x1="62" y1="46" x2="68" y2="46" stroke="#e57373" stroke-width="2" stroke-linecap="round"/>
-    <line x1="62" y1="54" x2="66" y2="54" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="61" y1="22" x2="65" y2="22" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="61" y1="32" x2="65" y2="32" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="61" y1="42" x2="67" y2="42" stroke="#e57373" stroke-width="2" stroke-linecap="round"/>
+    <line x1="61" y1="52" x2="65" y2="52" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
   </g>
 
   <!-- 汗（右上） -->
