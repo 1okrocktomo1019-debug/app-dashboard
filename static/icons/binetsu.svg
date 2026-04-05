@@ -1,51 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FDBA74;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FB923C;stop-opacity:1" />
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDBA74"/>
+      <stop offset="100%" stop-color="#FB923C"/>
     </linearGradient>
-    <linearGradient id="mercuryGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#F87171;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
-    </linearGradient>
-    <filter id="figShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#7C2D12" flood-opacity="0.25"/>
-    </filter>
   </defs>
+  <rect width="120" height="120" rx="26" fill="url(#bg)"/>
 
-  <!-- Background -->
-  <rect x="0" y="0" width="512" height="512" rx="102" ry="102" fill="url(#bgGrad)"/>
-  <rect x="0" y="0" width="512" height="512" rx="102" ry="102" fill="white" opacity="0.05"/>
-
-  <g filter="url(#figShadow)" transform="translate(12,0)">
-    <!-- Thermometer outer (white halo) -->
-    <rect x="212" y="100" width="64" height="280" rx="32" fill="white" opacity="0.95"/>
-    <circle cx="244" cy="390" r="46" fill="white" opacity="0.95"/>
-
-    <!-- Thermometer inner (black outline) -->
-    <rect x="220" y="108" width="48" height="264" rx="24" fill="#1a1a1a"/>
-    <circle cx="244" cy="390" r="38" fill="#1a1a1a"/>
-
-    <!-- Mercury fill -->
-    <rect x="228" y="210" width="32" height="170" rx="16" fill="url(#mercuryGrad)"/>
-    <circle cx="244" cy="390" r="28" fill="url(#mercuryGrad)"/>
-
-    <!-- Bulb shine -->
-    <circle cx="234" cy="382" r="8" fill="white" opacity="0.4"/>
-
-    <!-- Tube shine -->
-    <rect x="231" y="118" width="8" height="80" rx="4" fill="white" opacity="0.35"/>
+  <!-- 温度計（少し右に傾けて） -->
+  <g transform="rotate(18, 60, 60)">
+    <!-- 本体（管） -->
+    <rect x="52" y="18" width="16" height="56" rx="8" fill="white" stroke="#e0e0e0" stroke-width="1.5"/>
+    <!-- 水銀（赤い部分） -->
+    <rect x="55" y="44" width="10" height="30" rx="2" fill="#ff5252"/>
+    <!-- 球部 -->
+    <circle cx="60" cy="79" r="12" fill="#ff5252"/>
+    <circle cx="60" cy="79" r="8" fill="#ff1744"/>
+    <!-- ハイライト -->
+    <ellipse cx="56" cy="75" rx="3" ry="4" fill="white" opacity="0.35"/>
+    <!-- 目盛り -->
+    <line x1="62" y1="30" x2="66" y2="30" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="62" y1="38" x2="66" y2="38" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="62" y1="46" x2="68" y2="46" stroke="#e57373" stroke-width="2" stroke-linecap="round"/>
+    <line x1="62" y1="54" x2="66" y2="54" stroke="#bdbdbd" stroke-width="1.5" stroke-linecap="round"/>
   </g>
 
-  <!-- ZZZ (黒) -->
-  <text x="292" y="210" font-family="-apple-system, 'Helvetica Neue', sans-serif"
-        font-size="52" font-weight="900" fill="#1a1a1a" opacity="0.75"
-        letter-spacing="-2">z</text>
-  <text x="316" y="168" font-family="-apple-system, 'Helvetica Neue', sans-serif"
-        font-size="40" font-weight="900" fill="#1a1a1a" opacity="0.55"
-        letter-spacing="-2">z</text>
-  <text x="336" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif"
-        font-size="28" font-weight="900" fill="#1a1a1a" opacity="0.35"
-        letter-spacing="-2">z</text>
-
+  <!-- 汗（右上） -->
+  <ellipse cx="88" cy="28" rx="5" ry="7" fill="#90caf9" opacity="0.85" transform="rotate(-15, 88, 28)"/>
+  <ellipse cx="96" cy="38" rx="3.5" ry="5" fill="#90caf9" opacity="0.7" transform="rotate(-10, 96, 38)"/>
 </svg>
