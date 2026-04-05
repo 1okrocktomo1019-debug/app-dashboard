@@ -19,7 +19,7 @@ apps:
     url: https://web-production-4c07c.up.railway.app/
     icon: kaachan.svg
 
-  - name: 明日
-    description: 追加予定
-    url: "#"
-    icon: question.svg
+  - name: TENOHIRA
+    description: "手相を読んで\n運勢を占う"
+    url: https://tesso-reader-production.up.railway.app
+    icon: tenohira.svg

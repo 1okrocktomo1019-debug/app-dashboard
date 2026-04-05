@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0d2a40"/>
+      <stop offset="100%" stop-color="#060f1a"/>
+    </radialGradient>
+    <radialGradient id="ball" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#eafaff"/>
+      <stop offset="25%" stop-color="#b8eaf8"/>
+      <stop offset="55%" stop-color="#4ab8d8"/>
+      <stop offset="85%" stop-color="#1878a0"/>
+      <stop offset="100%" stop-color="#0a3a56"/>
+    </radialGradient>
+    <radialGradient id="shadow" cx="62%" cy="68%" r="45%">
+      <stop offset="0%" stop-color="#e0f8ff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0a3a56" stop-opacity="0.6"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景（角丸正方形） -->
+  <rect width="100" height="100" rx="22" fill="url(#bg)"/>
+
+  <!-- 台座 -->
+  <rect x="43" y="78" width="14" height="9" rx="2.5" fill="#0d2233"/>
+  <rect x="38" y="74" width="24" height="6" rx="3" fill="#0e2a40"/>
+
+  <!-- 水晶球 -->
+  <circle cx="50" cy="44" r="28" fill="url(#ball)"/>
+  <circle cx="50" cy="44" r="28" fill="url(#shadow)" opacity="0.5"/>
+
+  <!-- ハイライト -->
+  <ellipse cx="40" cy="32" rx="11" ry="7" fill="white" opacity="0.42" transform="rotate(-30 40 32)"/>
+  <ellipse cx="57" cy="27" rx="5" ry="3" fill="white" opacity="0.52" transform="rotate(-20 57 27)"/>
+
+  <!-- リム -->
+  <circle cx="50" cy="44" r="27.5" stroke="url(#rim)" stroke-width="1" fill="none" opacity="0.6"/>
+
+  <!-- 目 -->
+  <ellipse cx="42" cy="43" rx="3.5" ry="4" fill="#0a2030"/>
+  <ellipse cx="58" cy="43" rx="3.5" ry="4" fill="#0a2030"/>
+  <circle cx="43.5" cy="41.5" r="1.4" fill="white"/>
+  <circle cx="59.5" cy="41.5" r="1.4" fill="white"/>
+
+  <!-- まゆげ -->
+  <line x1="39" y1="37" x2="37" y2="34.5" stroke="#0a2030" stroke-width="1" stroke-linecap="round"/>
+  <line x1="42" y1="36.5" x2="42" y2="33.5" stroke="#0a2030" stroke-width="1" stroke-linecap="round"/>
+  <line x1="45" y1="37" x2="47" y2="34.5" stroke="#0a2030" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55" y1="37" x2="53" y2="34.5" stroke="#0a2030" stroke-width="1" stroke-linecap="round"/>
+  <line x1="58" y1="36.5" x2="58" y2="33.5" stroke="#0a2030" stroke-width="1" stroke-linecap="round"/>
+  <line x1="61" y1="37" x2="63" y2="34.5" stroke="#0a2030" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- ほっぺ -->
+  <ellipse cx="35" cy="48" rx="4.5" ry="2.8" fill="#80d8f0" opacity="0.3"/>
+  <ellipse cx="65" cy="48" rx="4.5" ry="2.8" fill="#80d8f0" opacity="0.3"/>
+
+  <!-- 口 -->
+  <path d="M 44 54 Q 50 60 56 54" stroke="#1a5070" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+
+  <!-- キラキラ -->
+  <path d="M16,18 L16.9,21.3 L20,22 L16.9,22.7 L16,26 L15.1,22.7 L12,22 L15.1,21.3 Z" fill="white" opacity="0.9"/>
+  <path d="M82,12 L82.7,15 L86,15.5 L82.7,16 L82,19 L81.3,16 L78,15.5 L81.3,15 Z" fill="white" opacity="0.9"/>
+  <path d="M88,52 L88.5,54.5 L91,55 L88.5,55.5 L88,58 L87.5,55.5 L85,55 L87.5,54.5 Z" fill="#a8e8f8" opacity="0.8"/>
+</svg>
