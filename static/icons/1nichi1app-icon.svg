@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="99"/>
+    </clipPath>
+  </defs>
+
+  <!-- 背景 -->
+  <circle cx="100" cy="100" r="100" fill="#0a0a0a"/>
+
+  <!-- ボーダー -->
+  <circle cx="100" cy="100" r="98" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- テキスト -->
+  <text
+    x="100"
+    y="94"
+    text-anchor="middle"
+    font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', Georgia, serif"
+    font-size="36"
+    font-weight="900"
+    letter-spacing="3"
+    fill="#ffffff"
+    clip-path="url(#circle-clip)"
+  >1日</text>
+
+  <text
+    x="100"
+    y="127"
+    text-anchor="middle"
+    font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', Georgia, serif"
+    font-size="36"
+    font-weight="900"
+    letter-spacing="3"
+    fill="#ffffff"
+    clip-path="url(#circle-clip)"
+  >1App</text>
+</svg>
