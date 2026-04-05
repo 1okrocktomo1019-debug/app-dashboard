@@ -1,44 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <!-- 背景 -->
-  <rect width="120" height="120" rx="26" fill="#FFF0E0"/>
-
-  <!-- 顔ベース -->
-  <circle cx="60" cy="58" r="34" fill="#F5C99A"/>
-
-  <!-- 髪（上） -->
-  <ellipse cx="60" cy="28" rx="26" ry="12" fill="#2a1a08"/>
-  <!-- 髪（おだんご） -->
-  <circle cx="60" cy="18" r="10" fill="#2a1a08"/>
-
-  <!-- 耳 -->
-  <circle cx="26" cy="58" r="6" fill="#F5C99A"/>
-  <circle cx="94" cy="58" r="6" fill="#F5C99A"/>
-
-  <!-- 目 -->
-  <ellipse cx="48" cy="55" rx="5" ry="5.5" fill="white"/>
-  <ellipse cx="72" cy="55" rx="5" ry="5.5" fill="white"/>
-  <circle cx="49" cy="56" r="3" fill="#2a1a08"/>
-  <circle cx="73" cy="56" r="3" fill="#2a1a08"/>
-  <!-- ハイライト -->
-  <circle cx="50.5" cy="54.5" r="1.2" fill="white"/>
-  <circle cx="74.5" cy="54.5" r="1.2" fill="white"/>
-
-  <!-- 眉毛 -->
-  <path d="M42 47 Q48 44 54 47" stroke="#2a1a08" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-  <path d="M66 47 Q72 44 78 47" stroke="#2a1a08" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-
-  <!-- 笑顔の口 -->
-  <path d="M50 68 Q60 78 70 68" stroke="#c0704a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-
-  <!-- ほっぺ -->
-  <ellipse cx="40" cy="65" rx="7" ry="4" fill="#f0a080" opacity="0.45"/>
-  <ellipse cx="80" cy="65" rx="7" ry="4" fill="#f0a080" opacity="0.45"/>
-
+<svg width="120" height="120" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="100" fill="#ff8c42"/>
+  <!-- 髪・耳・顔ベース -->
+  <ellipse cx="100" cy="44" rx="36" ry="30" fill="#3d2010"/>
+  <ellipse cx="62" cy="90" rx="10" ry="22" fill="#3d2010"/>
+  <ellipse cx="138" cy="90" rx="10" ry="22" fill="#3d2010"/>
+  <ellipse cx="100" cy="106" rx="42" ry="46" fill="#f9d8a8"/>
+  <!-- ニコッと笑顔 -->
+  <path d="M74 78 Q83 73 92 77" stroke="#3d2010" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M108 77 Q117 73 126 78" stroke="#3d2010" stroke-width="4" stroke-linecap="round" fill="none"/>
   <!-- メガネ -->
-  <rect x="41" y="50" width="16" height="13" rx="4" fill="none" stroke="#5a3010" stroke-width="1.8"/>
-  <rect x="63" y="50" width="16" height="13" rx="4" fill="none" stroke="#5a3010" stroke-width="1.8"/>
-  <line x1="57" y1="56" x2="63" y2="56" stroke="#5a3010" stroke-width="1.8"/>
-
-  <!-- 服（上部のみ） -->
-  <path d="M30 108 Q34 88 60 86 Q86 88 90 108 Z" fill="white"/>
+  <rect x="73" y="88" width="22" height="16" rx="6" fill="none" stroke="#5a3a20" stroke-width="3"/>
+  <rect x="105" y="88" width="22" height="16" rx="6" fill="none" stroke="#5a3a20" stroke-width="3"/>
+  <line x1="95" y1="96" x2="105" y2="96" stroke="#5a3a20" stroke-width="3"/>
+  <line x1="58" y1="94" x2="73" y2="94" stroke="#5a3a20" stroke-width="2.5"/>
+  <line x1="127" y1="94" x2="142" y2="94" stroke="#5a3a20" stroke-width="2.5"/>
+  <!-- 目（細め） -->
+  <path d="M78 96 Q84 91 90 96" stroke="#2d1a0e" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M110 96 Q116 91 122 96" stroke="#2d1a0e" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- ほっぺ -->
+  <ellipse cx="70" cy="110" rx="13" ry="9" fill="#f08080" opacity="0.5"/>
+  <ellipse cx="130" cy="110" rx="13" ry="9" fill="#f08080" opacity="0.5"/>
+  <!-- 口（笑顔） -->
+  <path d="M82 118 Q100 132 118 118" stroke="#c47a5a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- 鼻 -->
+  <ellipse cx="100" cy="111" rx="3" ry="2" fill="#d4956a" opacity="0.5"/>
+  <!-- 服 -->
+  <ellipse cx="100" cy="174" rx="48" ry="28" fill="#e8e0d0"/>
+  <path d="M70 158 Q100 168 130 158 L132 200 Q100 200 68 200 Z" fill="white" opacity="0.9"/>
+  <rect x="93" y="150" width="14" height="20" rx="4" fill="white" opacity="0.9"/>
 </svg>
