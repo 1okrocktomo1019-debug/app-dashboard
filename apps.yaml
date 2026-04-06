@@ -27,4 +27,4 @@ apps:
   - name: TikTokキャラ生成
     description: "TikTokアカウントを\nキャラにする"
     url: https://tiktok-dot-character-production.up.railway.app
-    icon: tiktok-1app.svg
+    icon: tiktok-chara.svg
