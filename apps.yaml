@@ -23,3 +23,8 @@ apps:
     description: "手相を読んで\n運勢を占う"
     url: https://tesso-reader-production.up.railway.app
     icon: tenohira.svg
+
+  - name: TikTokキャラ生成
+    description: "TikTokアカウントを\nキャラにする"
+    url: https://tiktok-dot-character-production.up.railway.app
+    icon: tiktok-1app.svg
