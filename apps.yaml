@@ -28,3 +28,8 @@ apps:
     description: "TikTokアカウントを\nキャラにする"
     url: https://tiktok-dot-character-production.up.railway.app
     icon: tiktok-chara.svg
+
+  - name: さくらナビ
+    description: "現在地の桜\n開花チェッカー"
+    url: https://sakura-navi-production.up.railway.app
+    icon: sakura-navi.svg
