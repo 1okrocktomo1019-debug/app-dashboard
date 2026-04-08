@@ -2,27 +2,22 @@
   <!-- 背景（角丸正方形） -->
   <rect width="100" height="100" rx="22" fill="#fce4ec"/>
 
-  <!-- 桜の花びら5枚 -->
-  <ellipse cx="50" cy="28" rx="8" ry="12" fill="#f48fb1" transform="rotate(0 50 50)"/>
-  <ellipse cx="50" cy="28" rx="8" ry="12" fill="#f48fb1" transform="rotate(72 50 50)"/>
-  <ellipse cx="50" cy="28" rx="8" ry="12" fill="#f48fb1" transform="rotate(144 50 50)"/>
-  <ellipse cx="50" cy="28" rx="8" ry="12" fill="#f48fb1" transform="rotate(216 50 50)"/>
-  <ellipse cx="50" cy="28" rx="8" ry="12" fill="#f48fb1" transform="rotate(288 50 50)"/>
+  <!-- 桜の花びら5枚（中央に配置） -->
+  <ellipse cx="50" cy="28" rx="9" ry="14" fill="#f48fb1" transform="rotate(0 50 50)"/>
+  <ellipse cx="50" cy="28" rx="9" ry="14" fill="#f48fb1" transform="rotate(72 50 50)"/>
+  <ellipse cx="50" cy="28" rx="9" ry="14" fill="#f48fb1" transform="rotate(144 50 50)"/>
+  <ellipse cx="50" cy="28" rx="9" ry="14" fill="#f48fb1" transform="rotate(216 50 50)"/>
+  <ellipse cx="50" cy="28" rx="9" ry="14" fill="#f48fb1" transform="rotate(288 50 50)"/>
 
   <!-- 花の中心 -->
-  <circle cx="50" cy="50" r="9" fill="#fff"/>
-  <circle cx="50" cy="50" r="6" fill="#ffc1e3"/>
+  <circle cx="50" cy="50" r="10" fill="#fff"/>
+  <circle cx="50" cy="50" r="7" fill="#ffc1e3"/>
 
   <!-- おしべ -->
-  <line x1="50" y1="44" x2="50" y2="40" stroke="#e91e8c" stroke-width="1.2" stroke-linecap="round"/>
-  <line x1="50" y1="44" x2="54" y2="41" stroke="#e91e8c" stroke-width="1.2" stroke-linecap="round"/>
-  <line x1="50" y1="44" x2="46" y2="41" stroke="#e91e8c" stroke-width="1.2" stroke-linecap="round"/>
-  <circle cx="50" cy="40" r="1.2" fill="#e91e8c"/>
-  <circle cx="54" cy="41" r="1.2" fill="#e91e8c"/>
-  <circle cx="46" cy="41" r="1.2" fill="#e91e8c"/>
-
-  <!-- 「ナビ」の位置アイコン（ピン） -->
-  <ellipse cx="50" cy="78" rx="5" ry="2.5" fill="#d81b60" opacity="0.3"/>
-  <path d="M50 65 C44 65 40 69 40 74 C40 80 50 88 50 88 C50 88 60 80 60 74 C60 69 56 65 50 65Z" fill="#e91e8c"/>
-  <circle cx="50" cy="74" r="3.5" fill="#fff"/>
+  <line x1="50" y1="43" x2="50" y2="38" stroke="#e91e8c" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="50" y1="43" x2="55" y2="40" stroke="#e91e8c" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="50" y1="43" x2="45" y2="40" stroke="#e91e8c" stroke-width="1.4" stroke-linecap="round"/>
+  <circle cx="50" cy="38" r="1.5" fill="#e91e8c"/>
+  <circle cx="55" cy="40" r="1.5" fill="#e91e8c"/>
+  <circle cx="45" cy="40" r="1.5" fill="#e91e8c"/>
 </svg>
