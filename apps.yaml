@@ -29,6 +29,11 @@ apps:
     url: https://tiktok-dot-character-production.up.railway.app
     icon: tiktok-chara.svg
 
+  - name: おつかいリスト
+    description: "チェックしたら\n下に移動"
+    url: https://shopping-list-production-fb5e.up.railway.app
+    icon: shopping-list.svg
+
   - name: さくらナビ
     description: "現在地の桜\n開花チェッカー"
     url: https://sakura-navi-production.up.railway.app
