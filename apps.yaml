@@ -44,7 +44,7 @@ apps:
     url: https://paypay-fukubiki-production.up.railway.app
     icon: paypay-fukubiki.svg
 
-  - name: サブスク管理
-    description: "サブスクを\n一元管理"
+  - name: AIサブスク管理
+    description: "AIサブスクを\n一元管理"
     url: https://subscription-manager-production-673d.up.railway.app
     icon: subscription-manager.svg
