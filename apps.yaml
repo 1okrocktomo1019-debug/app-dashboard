@@ -38,3 +38,13 @@ apps:
     description: "現在地の桜\n開花チェッカー"
     url: https://sakura-navi-production.up.railway.app
     icon: sakura-navi.svg
+
+  - name: PayPay福引
+    description: "10アプリ記念\nPayPayプレゼント"
+    url: https://paypay-fukubiki-production.up.railway.app
+    icon: paypay-fukubiki.svg
+
+  - name: サブスク管理
+    description: "サブスクを\n一元管理"
+    url: https://subscription-manager-production-673d.up.railway.app
+    icon: subscription-manager.svg
