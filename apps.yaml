@@ -48,3 +48,8 @@ apps:
     description: "サブスクを\n一元管理"
     url: https://subscription-manager-production-673d.up.railway.app
     icon: subscription-manager.svg
+
+  - name: バス時刻表
+    description: "名古屋バスの\n時刻表チェッカー"
+    url: https://bus-timetable-production.up.railway.app
+    icon: bus-timetable.svg
