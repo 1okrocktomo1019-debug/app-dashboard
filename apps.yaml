@@ -53,3 +53,8 @@ apps:
     description: "名古屋バスの\n時刻表チェッカー"
     url: https://bus-timetable-production.up.railway.app
     icon: bus-timetable.svg
+
+  - name: 自転車時間ナビ
+    description: "自転車で何分?\n正確に計算"
+    url: https://bicycle-navi-production.up.railway.app
+    icon: bicycle-navi.svg
