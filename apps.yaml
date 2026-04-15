@@ -56,5 +56,5 @@ apps:
 
   - name: 自転車時間ナビ
     description: "自転車で何分?\n正確に計算"
-    url: https://bicycle-navi-production.up.railway.app
+    url: https://web-production-eec3c.up.railway.app/
     icon: bicycle-navi.svg
