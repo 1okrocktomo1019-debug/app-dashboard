@@ -63,3 +63,8 @@ apps:
     description: "愚痴を聞いて\nポジティブ変換"
     url: https://web-production-8b60e.up.railway.app
     icon: positibe-gal.png
+
+  - name: 立替清算
+    description: "割り勘・立替を\nかんたん精算"
+    url: https://web-production-242d7.up.railway.app/
+    icon: tatekae-seisan.svg
